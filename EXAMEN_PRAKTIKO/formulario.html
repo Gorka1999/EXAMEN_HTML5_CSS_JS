@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Formulario" content="Formulario para iniciar sesion y poder compartir tendencia" />
+    <link rel="stylesheet" href="formulario.css" />
+    <link rel="stylesheet" href="slider.css">
+   
+    <title>IMC</title>
+  </head>
+  <body>
+    <a href="index.html"><button class="link" >VOLVER</button></a>
+
+    <div class="slider-container">
+      <div class="slider">
+          <div class="slide" id="slide1">
+              <img src="../slider/casadomo.jpg" alt="Imagen 1">
+          </div>
+          <div class="slide" id="slide2">
+              <img src="../slider/paneldomo.jpg" alt="Imagen 2">
+          </div>
+          <div class="slide" id="slide3">
+              <img src="../slider/dibujodomo.jpg" alt="Imagen 3">
+          </div>
+      </div>
+  </div>
+  <h2 class="iniciaSesion" >Inicia sesion con tu usuario</h2>
+    <section class="contenedor">
+      <div class="imcTablero">
+        <p>USUARIO</p>
+        <!-- <form action="recogida.html" method="GET"> (Lo comento para poder enviar los datos del login al formulario)-->
+          
+          <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario" />
+          <br />
+          <br />
+          <p>CONTRASEÑA</p>
+          <input type="password" id="password" name="contraseña" placeholder="Ingresa tu contraseña" />
+          <br />
+          <br />
+          <button class="boton" id="mostrar">Mostrar<img id="mostrar_ojo" src="../img/ojoCerrado.png" alt=""></button>
+          <div class="resultado" id="resultado">Pon los datos de el login</div>
+          <br>
+          <br>
+          
+          <input type="checkbox" value="" id="checkbox"/>
+          <p>Acepto la politica de privacidad</p>
+          <br>          
+          <input type="submit" value="enviar" id="enviar" disabled > Enviar</button> 
+          <a href="index.html"><button class="volverForm" >VOLVER</button></a>
+      </form>
+      </div>
+      </div>      
+    </section>
+
+    <footer>
+      <div class="copyrightsCaja" >
+      <p class="copyrights" >&copy; 2023 Hogares Domóticos.</p>
+      </div>
+  </footer>
+    <script src="./script.js"></script>
+    <script src="./slider.js" ></script>
+  </body>
+</html>

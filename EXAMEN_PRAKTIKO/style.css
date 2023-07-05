@@ -1,0 +1,132 @@
+
+body{
+    background-color: rgb(209, 156, 106);
+    color: white;
+    font-family: Josefin_Sans;
+
+}
+.link{
+    display: inline-block;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+.link:hover {
+    background-color: #0056b3;
+  }
+.link:active {
+    background-color: #003c80;
+  }
+ .link[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  } 
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image:url(../imagenes/domoticafondo.png) ;    
+    height: 30rem;
+    background-size: cover;
+   
+}
+img{
+    border-left: 0.3rem solid;
+    padding-left: 0.5rem;
+    margin-left: 3rem;
+    width: 20rem;
+}
+.multiplataforma{
+    width: 20rem;
+    margin-left: 3rem;
+}
+.negrita{
+    font-weight: bold;
+    border-left: 0.3rem solid;
+    padding-left: 0.5rem;
+    
+}
+p{
+    margin: 3rem;
+    
+}
+.tecnico{
+    width: 20rem;
+    margin-left: 3rem;
+}
+footer{
+    background: rgba(0, 0, 0, 0.226);
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+.copyrights{
+    justify-content: center;
+    text-align: center;    
+}
+.copyrightsCaja{
+    margin-top: 2.5re;
+}
+.tituloh1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 3rem;
+   
+}
+.lista{
+    margin-left: 3rem;
+}
+.principalesTendencias{
+    margin-left: 3rem;
+    font-weight: 1.5rem;
+    border-left: 0.3rem solid;
+    padding-left: 0.5rem;
+}
+.textoInicio{
+    margin-left: 4rem;
+}
+.iniciaSesion{
+    margin-left: 3rem;
+}
+
+
+
+
+/* Estilos para pantallas más pequeñas, como dispositivos móviles */
+@media (max-width: 767px) {
+    header {
+        height: 10rem; 
+    }
+    
+    
+}
+
+/* Estilos para pantallas medianas, como tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        height: 15rem; 
+    }
+    
+    
+}
+
+/* Estilos para pantallas más grandes, como escritorios */
+@media (min-width: 992px) {
+    header {
+        height: 30rem; 
+    }
+    
+  
+}
+

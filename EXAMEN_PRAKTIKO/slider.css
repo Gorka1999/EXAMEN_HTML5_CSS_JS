@@ -1,0 +1,79 @@
+/* body {
+    margin: 0;
+    background-color: rgb(209, 156, 106);
+
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center; 
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.slider {
+    display: flex;
+    animation: slideAnimation 15s linear infinite; 
+}
+
+.slide {
+    flex: 0 0 20rem; 
+}
+
+.slide img {
+    width: 50rem;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(-60rem); 
+    }
+} */
+
+body {
+    margin: 0;
+    background-color: rgb(209, 156, 106);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    animation: slideAnimation 9s linear infinite; /* Cambiar a 9s para coincidir con las 3 imágenes */
+}
+
+.slide {
+    flex: 0 0 100%; /* Cada imagen ocupa todo el ancho del contenedor */
+}
+
+.slide img {
+    width: 50rem;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%); /* Cambiar a -200% para 3 imágenes */
+    }
+}
+
+
